@@ -1,0 +1,63 @@
+
+.slideim{
+    height: 500px;
+}
+.slide2{
+    background-color: rgba(0, 0, 0, 0.61);
+}
+input{
+    outline: none;
+}
+.savebt{
+    background-color: #5e068a;
+    height: 30px;
+}
+.mainbt{
+    background-color: #5e068a;
+    height: 30px;
+    width: 15%;
+}
+.slct{
+    outline: none;
+}
+.carousel-caption{
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.526);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.carousel-caption h1{
+    margin-top: 20px;
+    text-align: justify;
+
+    
+}
+.carousel-caption p{
+    text-align: justify;
+    
+}
+.btv{
+    background-color: #5e068a;
+    height: 50px;
+    width: 20%;
+    outline: none;
+
+}
+textarea{
+    outline: none;
+    height: 100px;
+}
+@media (max-width:500px) {
+    .btv{
+
+width: 100px;    }
+.mainbt{
+    width: 100px;
+
+}
+    
+}
